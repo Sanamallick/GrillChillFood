@@ -1,6 +1,6 @@
-<?php include_once("iindex.html"); ?>
 <?php 
 session_start();
+   include_once("iindex.html");
 
 	include("connection.php");
 	include("functions.php");
