@@ -1,4 +1,5 @@
-<?php 
+<?php include_once("index.html"); ?>
+<!-- <?php 
 session_start();
 
 	include("connection.php");
@@ -21,4 +22,4 @@ session_start();
 	<br>
 	Hello, <?php echo $user_data['user_name']; ?>
 </body>
-</html>
+</html> -->
