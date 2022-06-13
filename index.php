@@ -1,5 +1,13 @@
-<?php include_once("iindex.html"); ?>
-<!-- 
+<?php include_once("index.html"); ?>
+<?php 
+session_start();
+
+	include("connection.php");
+	include("functions.php");
+
+	$user_data = check_login($con);
+
+?>
 
 <!DOCTYPE html>
 <html>
@@ -12,6 +20,6 @@
 	<h1>This is the index page</h1>
 
 	<br>
-	Hello, 
+	Hello, <?php echo $user_data['user_name']; ?>
 </body>
-</html> -->
+</html>
