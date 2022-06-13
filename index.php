@@ -1,4 +1,4 @@
-<?php include_once("index.html"); ?>
+<?php include_once("iindex.html"); ?>
 <?php 
 session_start();
 
